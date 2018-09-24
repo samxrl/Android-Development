@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#fbd939"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:elevation="4dp"
+        android:id="@+id/person"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/logo"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"
+        android:text="软工1602 谢瑞麟"/>
+</LinearLayout>
